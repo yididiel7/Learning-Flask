@@ -3,18 +3,9 @@
 <html>
 <head>
     <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="/static/site.css" />
 </head>
 <body>
-    <strong>{{ message }}</strong>{{ content }}
-
- def home():
-     now = datetime.now()
-     formatted_now = now.strftime("%A, %d %B, %Y at %X")
-
-     return render_template(
-     "index.html",
-     title = "Hello Flask",
-     message = "Hello, Flask!",
-     content = " on " + formatted_now)
+    <span class="message">{{ message }}</span>{{ content }}
 </body>
 </html>
