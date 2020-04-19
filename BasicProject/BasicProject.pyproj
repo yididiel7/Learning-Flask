@@ -36,6 +36,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HelloFlask\templates\HTMLPage1.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
